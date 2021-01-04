@@ -22,9 +22,9 @@ module.exports = {
       setTimeout(function () {
         if (queue.connection.dispatcher && message.guild.me.voice.channel) return;
         queue.channel.leave();
-        queue.textChannel.send("Leaving voice channel...");
+        queue.textChannel.send("Gua cabut dulu ya! males di kacangin.");
       }, STAY_TIME * 1000);
-      queue.textChannel.send("❌ Music queue ended.").catch(console.error);
+      queue.textChannel.send("❌ Musik udah selesai tod!.").catch(console.error);
       return message.client.queue.delete(message.guild.id);
     }
 
