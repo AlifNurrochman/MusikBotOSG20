@@ -7,7 +7,7 @@ const { YOUTUBE_API_KEY, SOUNDCLOUD_CLIENT_ID, DEFAULT_VOLUME } = require("../ut
 const youtube = new YouTubeAPI(YOUTUBE_API_KEY);
 
 module.exports = {
-  name: "play",
+  name: "p",
   cooldown: 3,
   aliases: ["p"],
   description: "Plays audio from YouTube or Soundcloud",
