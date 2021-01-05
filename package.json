@@ -1,13 +1,10 @@
 {
-  "name": "evobot",
-  "version": "0.9.0",
+  "name": "MusicBotOSG2020",
+  "version": "0.0.2",
   "description": "Discord music bot built with discord.js",
   "main": "index.js",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "author": "Adrian <rian.arifin777@gmail.com>",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
   "engines": {
     "node": ">=12.0.0"
   },
