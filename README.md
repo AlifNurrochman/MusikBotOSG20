@@ -49,7 +49,7 @@ File config.json adalah tempat untuk mengatur bot kamu:
 
 * Memutar musik berdasarkan pencarian youtube:
 
-`/play Kekeyi aku bukan boneka`
+`$play Kekeyi aku bukan boneka`
 
 * Memainkan lagu dari SoundCloud menggunakan url:
 
